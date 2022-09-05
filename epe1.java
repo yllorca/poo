@@ -15,19 +15,11 @@ import javax.swing.JTextArea;
 import javax.swing.WindowConstants;
 
 /**
- * EPE 1: Un restaurant conocido de la región 
- * te pide realizar su ventana de recepción de pedidos y 
- * comandas para los garzones y personal de cocina. 
- * Para esto, se requiere una interfaz de usuario para pantalla táctil, 
- * de fácil uso.
- * Debe crear una sola ventana que contenga lo siguiente:
- * Debe contener 10 botones de comandas con nombres de posibles bebidas, comestibles, postres, etc. 
- * Debe contener 1 combobox para selección de empleados. 
- * Debe contener 1 campo de texto para agregar observaciones a las comandas.
-
+ * EPE 1: Actividad Evaluativa (EPE 1). Mi primera ventana en Java
  * 
  * @author Yury Llorca
  */
+
 public class epe1 {
     
     //variables para el ComboBox
