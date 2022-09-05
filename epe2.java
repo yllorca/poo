@@ -70,6 +70,9 @@ public class epe2 implements ActionListener {
 
         botonIz1.addActionListener(this);
         botonIz2.addActionListener(this);
+        botonIz3.addActionListener(this);
+        botonIz4.addActionListener(this);
+        botonIz5.addActionListener(this);
     }
 
     public void contruyePanelDerecho(){
@@ -88,6 +91,12 @@ public class epe2 implements ActionListener {
         panelDerecho.add(botonDe3);
         panelDerecho.add(botonDe4);
         panelDerecho.add(botonDe5);
+
+        botonDe1.addActionListener(this);
+        botonDe2.addActionListener(this);
+        botonDe3.addActionListener(this);
+        botonDe4.addActionListener(this);
+        botonDe5.addActionListener(this);
     }
 
     public void contruyePanelInferior(){
@@ -142,8 +151,55 @@ public class epe2 implements ActionListener {
             dialog.setAlwaysOnTop(true); // to show top of all other application
             dialog.setVisible(true); // to visible the dialog
         }
+        if (e.getSource() == botonIz3) {
+            JOptionPane optionPane = new JOptionPane("Se ha seleccionado " + botonIz3.getText(),JOptionPane.WARNING_MESSAGE);
+            JDialog dialog = optionPane.createDialog("Selección de Producto");
+            dialog.setAlwaysOnTop(true); // to show top of all other application
+            dialog.setVisible(true); // to visible the dialog
+        }
+        if (e.getSource() == botonIz4) {
+            JOptionPane optionPane = new JOptionPane("Se ha seleccionado " + botonIz4.getText(),JOptionPane.WARNING_MESSAGE);
+            JDialog dialog = optionPane.createDialog("Selección de Producto");
+            dialog.setAlwaysOnTop(true); // to show top of all other application
+            dialog.setVisible(true); // to visible the dialog
+        }
+        if (e.getSource() == botonIz5) {
+            JOptionPane optionPane = new JOptionPane("Se ha seleccionado " + botonIz5.getText(),JOptionPane.WARNING_MESSAGE);
+            JDialog dialog = optionPane.createDialog("Selección de Producto");
+            dialog.setAlwaysOnTop(true); // to show top of all other application
+            dialog.setVisible(true); // to visible the dialog
+        }
+        if (e.getSource() == botonDe1) {
+            JOptionPane optionPane = new JOptionPane("Se ha seleccionado " + botonDe1.getText(),JOptionPane.WARNING_MESSAGE);
+            JDialog dialog = optionPane.createDialog("Selección de Producto");
+            dialog.setAlwaysOnTop(true); // to show top of all other application
+            dialog.setVisible(true); // to visible the dialog
+        }
+        if (e.getSource() == botonDe2) {
+            JOptionPane optionPane = new JOptionPane("Se ha seleccionado " + botonDe2.getText(),JOptionPane.WARNING_MESSAGE);
+            JDialog dialog = optionPane.createDialog("Selección de Producto");
+            dialog.setAlwaysOnTop(true); // to show top of all other application
+            dialog.setVisible(true); // to visible the dialog
+        }
+        if (e.getSource() == botonDe3) {
+            JOptionPane optionPane = new JOptionPane("Se ha seleccionado " + botonDe3.getText(),JOptionPane.WARNING_MESSAGE);
+            JDialog dialog = optionPane.createDialog("Selección de Producto");
+            dialog.setAlwaysOnTop(true); // to show top of all other application
+            dialog.setVisible(true); // to visible the dialog
+        }
+        if (e.getSource() == botonDe4) {
+            JOptionPane optionPane = new JOptionPane("Se ha seleccionado " + botonDe4.getText(),JOptionPane.WARNING_MESSAGE);
+            JDialog dialog = optionPane.createDialog("Selección de Producto");
+            dialog.setAlwaysOnTop(true); // to show top of all other application
+            dialog.setVisible(true); // to visible the dialog
+        }
+        if (e.getSource() == botonDe5) {
+            JOptionPane optionPane = new JOptionPane("Se ha seleccionado " + botonDe5.getText(),JOptionPane.WARNING_MESSAGE);
+            JDialog dialog = optionPane.createDialog("Selección de Producto");
+            dialog.setAlwaysOnTop(true); // to show top of all other application
+            dialog.setVisible(true); // to visible the dialog
+        }
       }
-
 
     public static void main (String [] inforux) {
         new epe2();
