@@ -26,4 +26,4 @@ Debe crear una sola ventana que contenga lo siguiente:
 * Debe asignarle a cada botón un evento para que cuando el usuario le haga click, este envíe un mensaje en un cuadro de diálogo indicando “Se ha seleccionado [nombre del botón]”
 
 ## Salida
-![EPE1](https://github.com/yllorca/poo/blob/epe1/epe1.png?raw=true)
+![EPE2](https://github.com/yllorca/poo/blob/epe2/epe2.png?raw=true)
