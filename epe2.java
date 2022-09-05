@@ -3,24 +3,29 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.WindowConstants;
+import javax.swing.JDialog;
+import javax.swing.JOptionPane;
 
 /**
- * EPE 1: Actividad Evaluativa (EPE 1). Mi primera ventana en Java
+ * EPE 2: Actividad Evaluativa (EPE 2). Mi primera ventana en Java
  * 
  * @author Yury Llorca
  */
 
-public class epe1 {
+public class epe2 implements ActionListener {
     
     //variables para el ComboBox
     String[] Garsones = new String[] {"Seleccione Garson", "Garson 1", "Garson 2",
@@ -62,6 +67,9 @@ public class epe1 {
         panelIzquierdo.add(botonIz4);
         panelIzquierdo.add(botonIz5);
         panelIzquierdo.add(combo1);
+
+        botonIz1.addActionListener(this);
+        botonIz2.addActionListener(this);
     }
 
     public void contruyePanelDerecho(){
@@ -114,16 +122,31 @@ public class epe1 {
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 
-    public epe1(){
+    public epe2(){
         contruyePanelInferior();
         contruyePanelIzquierdo();
         contruyePanelDerecho();
         contruyeVentana();
     }
 
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == botonIz1) {
+         JOptionPane optionPane = new JOptionPane("Se ha seleccionado " + botonIz1.getText(),JOptionPane.WARNING_MESSAGE);
+         JDialog dialog = optionPane.createDialog("Selección de Producto");
+         dialog.setAlwaysOnTop(true); // to show top of all other application
+         dialog.setVisible(true); // to visible the dialog
+        }
+        if (e.getSource() == botonIz2) {
+            JOptionPane optionPane = new JOptionPane("Se ha seleccionado " + botonIz2.getText(),JOptionPane.WARNING_MESSAGE);
+            JDialog dialog = optionPane.createDialog("Selección de Producto");
+            dialog.setAlwaysOnTop(true); // to show top of all other application
+            dialog.setVisible(true); // to visible the dialog
+        }
+      }
+
 
     public static void main (String [] inforux) {
-        new epe1();
+        new epe2();
     }
 
 
