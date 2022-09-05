@@ -51,7 +51,7 @@ public class epe1 {
         botonIz3=new JButton("Sprite");
         botonIz4=new JButton("Té");
         botonIz5=new JButton("Café");
-        combo1=new JComboBox<String>(Garsones);        
+        combo1=new JComboBox<String>(Garsones);
 
         panelIzquierdo.setLayout(new BoxLayout(panelIzquierdo,BoxLayout.Y_AXIS));
         panelIzquierdo.setBackground(Color.gray);
@@ -62,7 +62,6 @@ public class epe1 {
         panelIzquierdo.add(botonIz4);
         panelIzquierdo.add(botonIz5);
         panelIzquierdo.add(combo1);
-        
     }
 
     public void contruyePanelDerecho(){
@@ -122,7 +121,8 @@ public class epe1 {
         contruyeVentana();
     }
 
-    public static void main (String [] inforux){
+
+    public static void main (String [] inforux) {
         new epe1();
     }
 
