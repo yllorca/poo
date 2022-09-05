@@ -23,6 +23,5 @@ Para llevar a cabo esta actividad lee con atención el contexto y luego sigue la
 * Debe contener 1 combobox para selección de empleados.
 * Debe contener 1 campo de texto para agregar observaciones a las comandas.
 
-```
-git clone https://github.com/yllorca/poo.git
-```
+## Salida
+![EPE1](https://github.com/yllorca/poo/blob/epe1/epe1.png?raw=true)
