@@ -6,24 +6,43 @@ Carrera: TNS Analista Programador
 
 ## Installation
 
-Se debe descargar el repositio y activar la rama correspondiente a la actividad. 
+Se debe descargar el repositio y activar la rama correspondiente a la actividad EFE.
+
+El en carpeta Extarnal Library esta el conectar para sqlite
 
 ```
 git clone https://github.com/yllorca/poo.git
 ```
 
-## EPE 2
-En esta actividad continuarás desarrollando la actividad iniciada en el módulo 1.  
+## EFE
+Instrucción general de la actividad:
 
-Un restaurant conocido de la región te pide realizar su ventana de recepción de pedidos y comandas para los garzones y personal de cocina. Para esto, se requiere una interfaz de usuario para pantalla táctil, de fácil uso.  
- 
-Debe crear una sola ventana que contenga lo siguiente:  
+Una tienda de juegos de mesa prominente en la región decide contratar los servicios de un equipo de informática para potenciar su nivel tecnológico y enfrentar de mejor manera la transformación digital. El equipo se divide en dos, un equipo realiza la página web para manejar pedidos en línea y otro crea un software para llevar control de inventario y generar ventas.
 
-* Toda la interfaz debe estar ordenada en un BorderLayout.
-* Debe contener 10 botones de comandas con nombres de posibles bebidas, comestibles, postres, etc. Elija un administrador de disposición y diseño para ordenar los botones. Se recomienda usar de tipo rejilla.
-* Debe contener 1 combobox para selección de empleados
-* Debe contener 1 campo de texto para agregar observaciones a las comandas
-* Debe asignarle a cada botón un evento para que cuando el usuario le haga click, este envíe un mensaje en un cuadro de diálogo indicando “Se ha seleccionado [nombre del botón]”
+El equipo donde trabajarás se encargará de crear la base de datos y la aplicación que la opere. Los juegos de mesa poseen varios datos que se necesitan almacenar:
 
-## Salida
-![EPE2](https://github.com/yllorca/poo/blob/epe2/epe2.png?raw=true)
+*Nombre
+
+*Precio
+
+*Descripción
+
+*Cantidad de jugadores
+
+*Tiempo estimado por partida
+
+*Edad recomendada
+
+*Idioma
+
+*Editor (más de un juego pueden tener un mismo editor)
+
+*Diseñador (más de un juego pueden tener un mismo diseñador)
+
+*Artista (más de un juego pueden tener un mismo artista)
+
+*Stock
+
+*Imagen
+
+## Capturas
