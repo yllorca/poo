@@ -46,3 +46,16 @@ El equipo donde trabajarás se encargará de crear la base de datos y la aplicac
 *Imagen
 
 ## Capturas
+
+
+### Carga Proyecto
+![Inicial](https://github.com/yllorca/poo/blob/efe/img/1.png?raw=true)
+
+### Guardar
+![Guardar](https://github.com/yllorca/poo/blob/efe/img/2.png?raw=true)
+
+### Editar
+![Editar](https://github.com/yllorca/poo/blob/efe/img/3.png?raw=true)
+
+### Eliminar
+![Eliminar](https://github.com/yllorca/poo/blob/efe/img/4.png?raw=true)
